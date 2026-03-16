@@ -49,9 +49,9 @@ print(f"   RMSE     : ${rmse:,.2f}  (penalizes large errors more)")
 print(f"\n   Slope (coefficient) : ${model.coef_[0]:,.2f} per year")
 print(f"   Intercept           : ${model.intercept_:,.2f}")
 
-# ─────────────────────────────────────────
+
 # 4. User Input & Prediction with Range
-# ─────────────────────────────────────────
+
 print("\n" + "─" * 45)
 try:
     years = float(input("Enter years of experience: "))
@@ -65,9 +65,9 @@ try:
 except ValueError:
     print("Please enter a valid number.")
 
-# ─────────────────────────────────────────
+
 # 5. Visualization — 2 plots side by side
-# ─────────────────────────────────────────
+
 fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 fig.suptitle("Salary Prediction Model — Analysis", fontsize=14, fontweight="bold")
 
