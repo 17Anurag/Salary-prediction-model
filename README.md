@@ -66,4 +66,3 @@ A plot will also appear showing the data points and the regression line.
 
 ---
 
-Great starting point for a data science portfolio. Feel free to extend it with more features or a larger dataset.
